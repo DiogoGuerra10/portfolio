@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scaleable=no">
+    <title>Portefóliov2</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet" href="lightbox.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    
+    
+
+    
+</head>
+<body>
+    <header>
+        <div class="logo"> <a href="#home">Diogo Guerra</a></div>
+        <div class="hamburguer">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li>
+                    <a href="#home" class="active"> Home</a> </li>
+
+                    <li>
+                        <a href="#sobre"> Sobre</a>
+                    </li>
+                <li>
+                    <a href="#skills"> Skills</a>
+                </li>
+
+                <li>
+                    <a href="#projetos"> Projetos</a>
+                </li>
+                
+
+                <li>
+                    <a href="#contactos"> Contactos</a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+
+
+
+
+    <section id="home" class="background-section">
+        <video autoplay loop muted class="background-video">
+            <source src="videos/Star background.mp4" type="video/mp4">
+        </video>
+        <div class="box">
+            <div class="text">
+                <p> Olá,<br>sou o <span class="red-text">Diogo</span></p>
+                <a href="#contactos"><button>CONTACTOS</button></a>
+            
+            </div>
+            <div class="conteudo">
+                <img src="imagens/Foto_perfil.jpg" alt="Foto_perfil">
+            </div>
+        </div>
+    </section>
+
+
+    <section id="sobre" class="sobre">
+        <div class="container-sobre">
+            <div class="sobre-text">
+                <h1 style="text-align: center; font-size: 2.7rem; padding-bottom: 20px; font-weight: 600;">Sobre</h1>
+                <p>Olá, sou o Diogo Guerra, um estudante de Multimédia e Tecnologias da Comunicação na Universidade de Aveiro, atualmente no último ano da minha licenciatura. A minha paixão pela tecnologia e programação impulsiona-me a procurar constantemente novos desafios e oportunidades para aprimorar as minhas habilidades.
+
+                    <p>Possuo proficiência em diversas linguagens de programação, incluindo HTML, CSS e JavaScript, além de experiência em frameworks como React e Bootstrap. Os meus conhecimentos também abrangem o domínio de bases de dados, como MySQL.</p>
+                    
+                   <p> O meu foco principal reside em desenvolver soluções inovadoras para uma variedade de problemas, valorizando especialmente a resolução de erros e a depuração de código. Acredito firmemente na importância da dedicação e do empenho para superar obstáculos e alcançar resultados de excelência.</p>
+                    </div>
+            </div>
+        </div>
+    </section> 
+
+    <section id="skills" class="skills">
+            <div class="skills-container">
+                <h3 style="text-align: center; font-size: 2.7rem; font-weight: 600; color: black;" >Skills</h1>
+            </div>
+
+           <li> <h3 style="margin: 5px; color: black;">HTML</h3>
+            <span class="bar"><span class="html_span"></span></span>
+        </li>
+
+        <li> <h3 style="margin: 5px; color: black;">CSS</h3>
+            <span class="bar"><span class="css_span"></span></span>
+        </li>
+
+        <li> <h3 style="margin: 5px; color: black;">JavaScript</h3>
+            <span class="bar"><span class="javascript_span"></span></span>
+        </li>
+
+        <li> <h3 style="margin: 5px; color: black;">PHP</h3>
+            <span class="bar"><span class="php_span"></span></span>
+        </li>
+
+        <li> <h3 style="margin: 5px; color: black;">React</h3>
+            <span class="bar"><span class="react_span"></span></span>
+        </li>
+
+        <li> <h3 style="margin: 5px; color: black;">Bootstrap</h3>
+            <span class="bar"><span class="bootstrap_span"></span></span>
+        </li>
+                
+            
+    </section>
+
+    <section id="projetos" class="projects">
+       <div class="project-heading">
+        <span> Let´s See My Work</span>
+        <h3> Projetos</h3>
+       </div>
+
+       <ul class="project-filter">
+            <li class="list project-filter-active" data-filter="todos"> Todos</li>
+            <li class="list" data-filter="Prototipagem"> Prototipagem</li>
+            <li class="list" data-filter="react"> React</li>
+            <li class="list" data-filter="php"> PHP</li>
+            <li class="list" data-filter="js"> JavaScript</li>
+       </ul>
+
+       <div class="project-container">
+        
+        <a href="imagens/skye_desktop.png" class="project-box react" data-lightbox="work" >
+            <img src="imagens/skye_desktop.png" alt="Skye">
+            <div class="layer">
+                <h3 style="font-size: 24px;">Skye</h3>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quidem nostrum earum ipsa, cum placeat ad corporis rerum tenetur sequi odit illum explicabo deserunt tempora atque similique aspernatur ab quod?</p>
+            </div>
+        </a>
+
+
+        <a href="imagens/skye_mobile_3.png" class="project-box react" data-lightbox="work" >
+            <img src="imagens/skye_mobile_3.png" alt="Skye">
+            <div class="layer">
+                <h3 style="font-size: 24px;">Skye</h3>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quidem nostrum earum ipsa, cum placeat ad corporis rerum tenetur sequi odit illum explicabo deserunt tempora atque similique aspernatur ab quod?</p>
+            </div>
+        </a>
+
+        <a href="imagens/wordly.png" class="project-box react" data-lightbox="work" >
+            <img src="imagens/wordly.png" alt="wordly">
+            <div class="layer">
+                <h3 style="font-size: 24px;">Wordly</h3>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quidem nostrum earum ipsa, cum placeat ad corporis rerum tenetur sequi odit illum explicabo deserunt tempora atque similique aspernatur ab quod?</p>
+            </div>
+        </a>
+
+        <a href="imagens/cosmozone.png" class="project-box php" data-lightbox="work" >
+            <img src="imagens/cosmozone.png" alt="cosmozone">
+            <div class="layer">
+                <h3 style="font-size: 24px;">CosmoZone</h3>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quidem nostrum earum ipsa, cum placeat ad corporis rerum tenetur sequi odit illum explicabo deserunt tempora atque similique aspernatur ab quod?</p>
+            </div>
+        </a>
+
+        <a href="imagens/cosmozone-phone.png" class="project-box php" data-lightbox="work" >
+            <img src="imagens/cosmozone-phone.png" alt="CosmoZone">
+            <div class="layer">
+                <h3 style="font-size: 24px;">CosmoZone</h3>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quidem nostrum earum ipsa, cum placeat ad corporis rerum tenetur sequi odit illum explicabo deserunt tempora atque similique aspernatur ab quod?</p>
+            </div>
+        </a>
+
+        <a href="imagens/Recicla.png" class="project-box js" data-lightbox="work" >
+            <img src="imagens/Recicla.png" alt="Recicla">
+            <div class="layer">
+                <h3 style="font-size: 24px;">Recicla</h3>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quidem nostrum earum ipsa, cum placeat ad corporis rerum tenetur sequi odit illum explicabo deserunt tempora atque similique aspernatur ab quod?</p>
+            </div>
+        </a>
+
+
+        <a href="imagens/melodrop.png" class="project-box Prototipagem" data-lightbox="work" >
+            <img src="imagens/melodrop.png" alt="Skye">
+            <div class="layer">
+                <h3 style="font-size: 24px;">Melodrop</h3>
+                <p> Este foi o nosso primeiro grande projeto académico. Fomos solicitados a criar um produto e uma marca fictícios para um aplicativo, projetar toda a interface do utilizador e, em seguida, fazer um protótipo. Com isso nasceu o Melodrop. Uma app feita para cinegrafistas e editores onde eles podem ter acesso e compartilhar a sua música.</p>
+            </div>
+        </a>
+
+
+
+       
+
+        
+
+
+
+        
+        
+       </div>
+
+    </section>
+    
+   
+    
+
+    <section id="contactos" class="contactos">
+        <div class="contact-left-title">
+            <h1 style="text-align: center; font-size: 2.7rem; margin-bottom: 30px; font-weight: 600;">Contactos</h2>
+        </div>
+        <div class="contact-container">
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+                <input type="hidden" name="access_key" value="b04d9338-ac57-45b5-b249-735be01ddca3">
+        <input type="text" name="name" placeholder="Nome" class="contact-inputs" required>
+        <input type="email" name="email" placeholder="Email" class="contact-inputs" required>
+        <textarea name="message" placeholder="" class="contact-inputs" required></textarea>
+        <button type="submit" class="contact-button">Enviar <img src="imagens/assets/arrow_icon.png"> </button>
+            </form>
+    
+        </div>
+    </section>
+                    
+            
+    <footer>
+       <div class="footer-container">
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/diogo-guerra-2a3607280/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/_diogo.guerra_/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://github.com/DiogoGuerra10"><i class="fa-brands fa-github"></i></a>
+            <a href=mailto:"d.guerra@ua.pt"><i class="fa fa-envelope"></i></a>
+        </div>
+
+        <div class="footer-nav">
+            <ul>
+                <li>
+                    <a href="#home">Home</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projetos">Projetos</a>
+                    <a href="#sobre">Sobre</a>
+                    <a href="#contactos">Contactos</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright &copy; 2024; Designed by <span class="designer"> Diogo Guerra</span></p>
+       </div>
+    </footer>
+    <script>
+        $('a[href^="#"]').on('click', function(event) {
+            var target = $(this.getAttribute('href'));
+            if(target.length) {
+                event.preventDefault();
+                $('html, body').stop().animate({
+                    scrollTop: target.offset().top
+                }, 1000);
+            }
+        });
+
+     
+        </script>
+
+        
+
+
+
+<!-- Código para o menu hamburguer -->
+<script>
+    hamburguer = document.querySelector(".hamburguer");
+    hamburguer.onclick = function() {
+        navBar = document.querySelector(".nav-bar");
+        navBar.classList.toggle("active");
+    }
+    
+</script>
+
+<!-- Ficheiro para a lightbox -->
+<script src="js/Jquery.js"></script>
+
+<!-- Lightbox dos projetos-->
+<script src="lightbox.min.js"></script>
+
+<!-- Transição suave -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+<!-- Código para aparecerem todos os projetos quando se clica em "Tdoso" // ou apenas segundo a categoria -->
+<script type="text/javascript">
+
+    $(document).on('click', '.project-filter li', function() {
+        $(this).addClass('project-filter-active').siblings().removeClass('project-filter-active');
+    });
+
+    $(document).ready(function() {
+        $('.list').click(function() {
+            const value = $(this).attr('data-filter');
+            $('.project-box').each(function() {
+                var filter = $(this).attr('data-filter');
+                if (value == 'todos') {
+                    $('.project-box').show();
+                } else {
+                    $('.project-box').not('.' + value).hide('1000');
+                    $('.project-box').filter('.' + value).show('1000');
+                }
+            });
+        });
+    });
+
+</script>
+
+<!-- Transição suave ao clicar num link -->
+<script>
+    $(document).ready(function(){
+      $("a").on('click', function(event) {
+        if (this.hash !== "") {
+          event.preventDefault();
+          var hash = this.hash;
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function(){
+            window.location.hash = hash;
+          });
+        }
+      });
+    });
+</script>
+
+<script>
+    $(document).ready(function(){
+      $(".nav-bar a").on('click', function(event) {
+        if (this.hash !== "") {
+          event.preventDefault();
+          var hash = this.hash;
+          $(".nav-bar").collapse('hide');
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function(){
+            window.location.hash = hash;
+          });
+        }
+      });
+    });
+    </script>
+
+
+
+</body>
+</html>
