@@ -11,7 +11,7 @@
       "name": "Abrir no Chrome",
       "type": "chrome",
       "request": "launch",
-      "file": "${workspaceFolder}/portfolio.html"
+      "file": "${workspaceFolder}/index.html"
     }
   ]
 }
