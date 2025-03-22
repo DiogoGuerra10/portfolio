@@ -200,6 +200,7 @@ section div.box .conteudo img{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 50px;
 }
 
 
@@ -372,7 +373,15 @@ background-color: #fefefe;
     font-size: 60px;
     font-weight: 600;
     color: #fff;
+    margin-bottom: 30px;
     
+}
+
+.sub-title-Contacts{
+    font-size: 60px;
+    font-weight: 600;
+    color: #fff;
+    padding-top: 80px;
 }
 
 .tab-titles{
@@ -478,7 +487,7 @@ background-color: #fefefe;
 }
 
 .layer h3{
-    
+    color: #fff;
     font-weight: 500;
     margin-bottom: 20px;
 }
@@ -494,6 +503,10 @@ background-color: #fefefe;
     height: 60px;
     border-radius: 50%;
     text-align: center;
+}
+
+.layer p{
+    color: #fff;
 }
 
 .work:hover img{
@@ -516,6 +529,32 @@ background-color: #fefefe;
     box-sizing: border-box;
 }
 
+@media only screen and (max-width: 600px){
+    .sub-title {
+        font-size: 40px;
+       margin-bottom: 20px;
+    }
+
+    .about-col-1, .about-col-2{
+        flex-basis: 100%;
+
+    }
+
+    .about-col-1{
+        margin-bottom: 30px;
+    }
+
+    .about-col-2{
+        font-size: 14px;
+    }
+
+    .tab-links{
+        font-size: 16px;
+        margin-right: 20px;
+    }
+
+
+}
 
 
 @media(max-width:740px){
