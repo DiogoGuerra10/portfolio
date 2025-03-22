@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scaleable=no">
+    <title>Portfolio - Diogo Guerra</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+
+
+    <link rel="stylesheet" href="lightbox.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Video Background Container that will span multiple sections -->
+    <div class="background-video-container">
+        <video autoplay loop muted class="background-video">
+            <source src="videos/Star background.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <header>
+        <div class="logo">
+            <a href="#home">
+                <img style="max-width: 200px; max-height: 200px; margin-bottom: 20px;" src="imagens/assinatura.png" alt="Logo">
+            </a>
+        </div>
+        <div class="hamburguer">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    ----------------------------------------- <!-- Home Section -->--------------------------------------------
+
+
+    <section id="home" class="video-background-section">
+        <div class="box">
+            <div class="text">
+                <p> Hello,<br>I´m <span class="red-text">Diogo</span></p>
+                <a href="#contacts" style="cursor: pointer;"><button style="cursor: pointer;">CONTACTS</button></a>
+            </div>
+            <div class="conteudo">
+                <img src="imagens/Foto_perfil.jpg" alt="Profile Picture">
+            </div>
+        </div>
+    </section>
+
+----------------------------------------- <!-- About Section -->--------------------------------------------
+    <div id="about">
+        <div class="container" >
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="imagens/profile_img_about.jpg" alt="Profile Picture">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello, I'm Diogo Guerra, graduated in Multimedia and Communication Technologies, currently studying for a master's degree in Communication and Web Technologies. My passion for technology and programming drives me to constantly seek new challenges and opportunities to improve my skills.
+
+                        My main focus is on developing innovative solutions to a variety of problems, with a particular emphasis on bug fixing and code classification. I firmly believe in the importance of efficiency and effort to overcome obstacles and achieve excellent results.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>Frontend Development</span><br>HTML, CSS, JavaScript, React</li>
+                            <li><span>Backend Development</span><br>PHP, MySQL, Node</li>
+
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2024</span><br>Internship - Wordpress Developer at ISQCTAG</li>
+                            <li><span>2024</span><br>Internship - Web Developer at Câmara Municipal de Monção</li>
+                        </ul> 
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021 - 2024</span><br>Degree in Multimedia Communication Technologies</li>
+                            <li><span>2024 - Current</span><br>Master in Communication and Web Technologies</li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    ----------------------------------------- <!-- Projects Section -->--------------------------------------------
+    <div  id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+    
+            <!-- Swiper Container -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="work">
+                            <img src="imagens/flat-devices-mockup.png" alt="Project 1">
+                            <div class="layer">
+                                <h3>Skye</h3>
+                                <p>Lorem Ipsum ....</p>
+                                <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="swiper-slide">
+                        <div class="work">
+                            <img src="imagens/recicla_mockup.png" alt="Project 2">
+                            <div class="layer">
+                                <h3>Recicla</h3>
+                                <p>Lorem Ipsum ....</p>
+                                <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="swiper-slide">
+                        <div class="work">
+                            <img src="imagens/melodrop_mockup.png" alt="Project 3">
+                            <div class="layer">
+                                <h3>Melodrop</h3>
+                                <p>Lorem Ipsum ....</p>
+                                <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="swiper-slide">
+                        <div class="work">
+                            <img src="imagens/cosmozone_multiple.png" alt="Project 4">
+                            <div class="layer">
+                                <h3>CosmoZone</h3>
+                                <p>Lorem Ipsum ....</p>
+                                <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                
+                <div style="color: black;" class="swiper-button-next"></div>
+                <div style="color: black;" class="swiper-button-prev"></div>
+    
+                
+                <div  class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+
+   
+    ----------------------------------------- <!-- Contacts Section -->--------------------------------------------
+
+    <section id="contacts" class="contactos video-background-section" >
+        <div class="contact-left-title" style="display: flex; justify-content: center; align-items: center; text-align: center; margin-bottom: 50px;">
+            <h1 class="sub-title">Contacts</h1>
+        </div>
+        <div class="contact-container">
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+                <input type="hidden" name="access_key" value="b04d9338-ac57-45b5-b249-735be01ddca3">
+                <input type="text" name="name" placeholder="Name" class="contact-inputs" required>
+                <input type="email" name="email" placeholder="Email" class="contact-inputs" required>
+                <textarea name="message" placeholder="" class="contact-inputs" required></textarea>
+                <button type="submit" style="cursor: pointer;" class="contact-button">Send <img src="imagens/assets/arrow_icon.png"> </button>
+            </form>
+        </div>
+    </section>
+                    
+    <footer>
+       <div class="footer-container">
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/diogo-guerra-2a3607280/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/_diogo.guerra_/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://github.com/DiogoGuerra10"><i class="fa-brands fa-github"></i></a>
+            <a href=mailto:"d.guerra@ua.pt"><i class="fa fa-envelope"></i></a>
+        </div>
+
+        <div class="footer-nav">
+            <ul>
+                <li>
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contacts">Contactos</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright &copy; 2025; Designed by <span class="designer"> Diogo Guerra</span></p>
+       </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/Jquery.js"></script>
+    <script src="lightbox.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+    <script>
+        hamburguer = document.querySelector(".hamburguer");
+        hamburguer.onclick = function() {
+            navBar = document.querySelector(".nav-bar");
+            navBar.classList.toggle("active");
+        }
+        
+        $(document).ready(function(){
+          $("a").on('click', function(event) {
+            if (this.hash !== "") {
+              event.preventDefault();
+              var hash = this.hash;
+              $('html, body').animate({
+                scrollTop: $(hash).offset().top
+              }, 800, function(){
+                window.location.hash = hash;
+              });
+            }
+          });
+        });
+
+        $(document).on('click', '.project-filter li', function() {
+            $(this).addClass('project-filter-active').siblings().removeClass('project-filter-active');
+        });
+
+        $(document).ready(function() {
+            $('.list').click(function() {
+                const value = $(this).attr('data-filter');
+                $('.project-box').each(function() {
+                    var filter = $(this).attr('data-filter');
+                    if (value == 'todos') {
+                        $('.project-box').show();
+                    } else {
+                        $('.project-box').not('.' + value).hide('1000');
+                        $('.project-box').filter('.' + value).show('1000');
+                    }
+                });
+            });
+        });
+    </script>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks ) {
+                tablink.classList.remove("active-link");
+            }
+
+            for (tabcontent of tabcontents ) {
+                tabcontent.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+<script>
+    var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 3, 
+    spaceBetween: 20,
+    
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+    
+    breakpoints: {
+        // Mobile
+        320: {
+            slidesPerView: 1,
+            spaceBetween: 10
+        },
+        // Tablets
+        768: {
+            slidesPerView: 2,
+            spaceBetween: 20
+        },
+        // Desktop
+        1024: {
+            slidesPerView: 3,
+            spaceBetween: 30
+        }
+    }
+});
+</script>
+
+
+</body>
+</html>
